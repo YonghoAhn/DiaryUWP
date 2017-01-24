@@ -38,7 +38,8 @@ namespace Blessing
 
         private void NewDiaryButton_Click(object sender, RoutedEventArgs e)
         {
-
+            TakePic t = new TakePic();
+            Frame.Navigate(typeof(TakePic));
         }
     }
 }

@@ -8,9 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel>
-            <Image x:Name="image" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-            <Button x:Name="button" Content="Capture Pic"  Click="button_Click" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
-        </StackPanel>
+  
+            <Image x:Name="image" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Stretch="UniformToFill"/>
+            <Button x:Name="button" Content="Capture Pic"  Click="button_Click" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"  />
+
     </Grid>
 </Page>
